@@ -1,0 +1,13 @@
+@keyframes cogspin {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.fa-cog:hover {
+  animation: cogspin 1s ease-in-out infinite;
+}
